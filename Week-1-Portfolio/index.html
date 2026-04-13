@@ -1,0 +1,184 @@
+<body style="background-color: #e5f1fa; font-family: Arial, sans-serif; margin: 0; padding: 40px;">
+
+    <style>
+        .main-container {
+            width: 1000px;
+            background-color: #ffffff;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .content-cell {
+            padding: 50px;
+        }
+        h1 { color: #1a5276; text-align: center; margin-bottom: 5px; }
+        h3 { color: #2980b9; text-align: center; margin-top: 0; font-weight: normal; }
+        h2 { color: #2980b9; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 30px; }
+        
+        .skills-header {
+            background-color: #dcedf8;
+            padding: 8px 15px;
+            color: #1a5276;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+        table.experience-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        table.experience-table th, table.experience-table td {
+            border: 1px solid #444;
+            padding: 12px;
+            text-align: left;
+        }
+        table.experience-table thead th {
+            background-color: #2980b9;
+            color: white;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+        }
+        legend { font-weight: bold; color: #555; }
+        label { font-size: 13px; width: 140px; display: inline-block; }
+        input, select, textarea { padding: 5px; border: 1px solid #ccc; }
+        button { padding: 8px 20px; border: none; color: white; font-weight: bold; cursor: pointer; }
+    </style>
+
+    <table class="main-container">
+        <tr>
+            <td class="content-cell">
+                
+                <h1>Mohammed Portfolio</h1>
+                <h3>Professional Web Developer</h3>
+
+                <h2>About me</h2>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="200" valign="top">
+                            <img src="Images/130662d9e17dda1e7291e588e6519gfd2-large.jpg" alt="Profile" style="border-radius: 5px; margin-bottom: 15px; width: 180px;">
+                            <table width="100%">
+                                <tr>
+                                    <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30"></td>
+                                    <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" width="30"></td>
+                                    <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" width="30"></td>
+                                    <td align="center"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="30"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td valign="top" style="padding-left: 40px;">
+                            <p style="margin-top: 0; line-height: 1.6; color: #333;">
+                            I am a software engineering student passionate about learning web development. 
+                            I focus on building clean structures and understanding the fundamentals of HTML, CSS,JavaScript.</p>
+                            
+                            <span class="skills-header">Skills</span>
+                            <ul style="color: #3498db; margin-top: 10px;">
+                                <li><a href="https://html.com/" style="color: #3498db;">HTML5</a></li>
+                                <li><a href="#" style="color: #3498db;">CSS3</a></li>
+                                <li><a href="#" style="color: #3498db;">JavaScript</a></li>
+                                <li><a href="#" style="color: #3498db;">Angular</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+
+                <h2>Experience Timeline</h2>
+                <h4 style="text-align: center; color: #444; margin-bottom: 10px;">Professional Experience Overview</h4>
+                <table class="experience-table">
+                    <thead>
+                        <tr>
+                            <th>Company</th>
+                            <th>Logo</th>
+                            <th>Role</th>
+                            <th>Key Achievements</th>
+                            <th>Dates</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">TechCorp Solutions</td>
+                            <td rowspan="2" align="center" valign="middle"><img src="https://via.placeholder.com/50" width="50"></td>
+                            <td>Senior Full Stack Developer</td>
+                            <td><ul><li>Lead development of web applications</li><li>Mentor junior developers</li></ul></td>
+                            <td>Jan 2023 - Present</td>
+                        </tr>
+                        <tr>
+                            <td>Full Stack Developer</td>
+                            <td><ul><li>Developed responsive web applications</li><li>Optimized performance</li></ul></td>
+                            <td>2021 - 2023</td>
+                        </tr>
+                        <tr>
+                            <td>Digital Agency Pro</td>
+                            <td align="center"><img src="https://via.placeholder.com/50" width="50"></td>
+                            <td>Frontend Developer</td>
+                            <td><ul><li>Built user interfaces from mockups</li><li>Code reviews</li></ul></td>
+                            <td>2019 - 2020</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" style="background-color: #f2f2f2; font-weight: bold;">Total Experience: 5+ years in web development</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <h2>Contact Me</h2>
+                <p style="font-size: 14px; color: #666; margin-bottom: 20px;">Feel free to reach out to me using the form below.</p>
+                
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <table width="100%">
+                            <tr>
+                                <td width="50%">
+                                    <label>First Name: *</label> <input type="text" required><br><br>
+                                    <label>Email Address: *</label> <input type="email" required><br><br>
+                                    <label>Meeting Date:</label> <input type="date">
+                                </td>
+                                <td width="50%">
+                                    <label>Last Name: *</label> <input type="text" required><br><br>
+                                    <label>Phone Number:</label> <input type="tel"><br><br>
+                                    <label>Best Time:</label> <input type="time">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Project Details</legend>
+                        <table width="100%">
+                            <tr>
+                                <td width="50%" valign="top">
+                                    <label>Project Type: *</label> <input type="text" required><br><br>
+                                    <label>Budget Range:</label><br>
+                                    <span style="font-size: 13px; margin-left: 20px;">
+                                        <input type="radio" name="budget"> Under $5,000<br>
+                                        <input type="radio" name="budget" style="margin-left: 20px;"> $5,000 - $10,000
+                                    </span>
+                                </td>
+                                <td width="50%" valign="top">
+                                    <label>Description: *</label><br>
+                                    <textarea style="width: 90%; height: 80px;" required></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+
+                    <p style="text-align: left;">
+                        <button type="submit" style="background-color: #5bc0de;">Send Message</button>
+                        <button type="reset" style="background-color: #d9534f; margin-left: 10px;">Clear Form</button>
+                    </p>
+                </form>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
