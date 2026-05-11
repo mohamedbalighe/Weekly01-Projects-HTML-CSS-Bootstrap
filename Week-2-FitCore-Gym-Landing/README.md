@@ -4,6 +4,9 @@ A modern, high-conversion landing page for a fitness facility. This project demo
 ### 🎯 Project Overview
 The goal was to build a multi-section landing page that includes complex components like grids, testimonial cards, and a membership registration form, all while maintaining a clean and consistent design language.
 
+## 🚀 Live Demo
+[View](https://mohamedbalighe.github.io/Weekly01-Projects-HTML-CSS-Bootstrap/Week-2-FitCore-Gym-Landing/index.html)
+
 ### 🛠 Technical Skills Applied
 * **CSS Layouts (Floats):** Mastering the use of `float: left/right` to build multi-column layouts.
 * **Clearfix Hack:** Implementing `clearfix` classes to prevent parent container collapse in floated layouts.
