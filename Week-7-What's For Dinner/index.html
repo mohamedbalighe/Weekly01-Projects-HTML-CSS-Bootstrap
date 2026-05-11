@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  
+
+   <nav class="navbar navbar-expand-lg mb-5  py-3">
+  <div class="container-fluid ">
+    <div class="diva d-flex">
+    <div class="game-icon me-3">
+    <i class="fa-solid fa-utensils"></i></div>
+    <div class="beside-logo">
+    <h1 class="web-name">What's For Dinner</h1>
+    <p class="ppp">Your daily meal inspiration</p>
+    </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+       <form class="d-flex gap-3 align-items-center ms-auto px-5" role="search">
+            <div class="bookmark px-1 fs-5">
+                <i class="fa-solid fa-bookmark"></i>
+            </div>
+            <div class="clock px-1 fs-5">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+            </div>
+            <div class="message-icon px-1 fs-5">
+        <i class="fa-solid fa-gear"></i>
+        </div>
+        </div>
+        <button class="btn border-0 p-0 shadow-none bg-transparent"><img  src="images/avatar-3.jpg" ></button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+
+
+<section>
+    <div class="container py-5">
+        <div class="card mb-3 rounded-4 shadow overflow-hidden">
+            <div class="row g-0" id="Data"> </div>        
+        </div> 
+
+        <button type="button" onclick="MoveToNextReceipt()" class="btn btn-warning my-5 d-flex fs-5 mx-auto px-4 py-2 rounded-pill shadow-sm">
+            <i class="fa-solid me-2 m-auto fa-rotate"></i>Try Another Recipe
+        </button>
+    </div>
+</section>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/Js.js"></script>
+</body>
+</html>
