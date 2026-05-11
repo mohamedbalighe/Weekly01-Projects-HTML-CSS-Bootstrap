@@ -4,6 +4,9 @@ A high-end, responsive product showcase page built with a focus on modern UI/UX 
 ### 🎯 Project Overview
 This project simulates an official product launch page. It features a sophisticated comparison system, interactive review sections, and a curated "Complete Your Setup" accessory grid. The design follows a sleek, tech-oriented aesthetic using a professional purple accent color.
 
+## 🚀 Live Demo
+[View](https://mohamedbalighe.github.io/Weekly01-Projects-HTML-CSS-Bootstrap/Week-3-Product-Page-The-DJI-Mavic-4/index.html)
+
 ### 🛠 Technical Deep Dive
 * **CSS Grid Mastery:** Used `grid-template-columns` to create a responsive 4-column accessory layout that adapts flawlessly to mobile and tablet screens.
 * **Flexbox Layouts:** Implemented Flexbox for the navigation bar, product hero section, and the sticky review summary sidebar.
