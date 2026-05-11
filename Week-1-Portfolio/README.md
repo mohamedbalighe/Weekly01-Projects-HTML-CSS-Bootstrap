@@ -4,6 +4,10 @@ This is my very first Frontend Assignment. It represents the starting point of m
 ### 🎯 Assignment Goals
 The main challenge was to build a complete, organized portfolio page using **HTML Tables** for the layout, ensuring a structured presentation of data without relying on advanced frameworks.
 
+## 🚀 Live Demo
+[View](https://mohamedbalighe.github.io/Weekly01-Projects-HTML-CSS-Bootstrap/Week-1-Portfolio/index.html) 
+
+
 ### 🛠 Skills Demonstrated
 * **Table-based Layouts:** Using `<table>`, `<tr>`, and `<td>` to create a structured grid.
 * **Complex Table Features:** Implementing `rowspan` and `colspan` in the Experience Timeline.
