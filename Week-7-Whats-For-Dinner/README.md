@@ -1,6 +1,9 @@
 # 🍲 What's For Dinner?
 A smart recipe discovery application that helps users find daily meal inspiration using real-time data.
 
+## 🚀 Live Demo
+ [View](https://mohamedbalighe.github.io/Weekly01-Projects-HTML-CSS-Bootstrap/Week-7-Whats-For-Dinner/index.html)
+ 
 ### 🚀 Key Features
 *   **Dynamic UI:** Automatically generates recipe cards and details (Ingredients, Instructions) based on the fetched data.
 *   **Loading States:** Smooth transitions while fetching data from the server.
