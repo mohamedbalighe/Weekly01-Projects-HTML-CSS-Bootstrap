@@ -1,5 +1,8 @@
 # The UX Review - Brutalist Web Design
 
+## 🚀 Live Demo
+[View](https://mohamedbalighe.github.io/Weekly01-Projects-HTML-CSS-Bootstrap/Week-4-The-UX-Review-Blog-Landing/index.html)
+
 ## ✨ Features
 - **Brutalist Aesthetic:** Heavy borders, high-contrast colors (yellow, red, blue), and thick shadows.
 - **Responsive Layout:** Designed to work across different screen sizes using CSS Flexbox.
