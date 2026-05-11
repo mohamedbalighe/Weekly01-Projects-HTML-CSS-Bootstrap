@@ -2,7 +2,6 @@
 A smart recipe discovery application that helps users find daily meal inspiration using real-time data.
 
 ### 🚀 Key Features
-*   **API Integration:** Fetches live recipe data from external sources.
 *   **Dynamic UI:** Automatically generates recipe cards and details (Ingredients, Instructions) based on the fetched data.
 *   **Loading States:** Smooth transitions while fetching data from the server.
 *   **Responsive Design:** Fully optimized for mobile and desktop screens.
