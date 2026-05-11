@@ -1,6 +1,9 @@
 # 📇 Contact Hub
 A dynamic Contact Management System built with JavaScript to handle personal or professional contacts efficiently.
 
+## 🚀 Live Demo
+[View](https://mohamedbalighe.github.io/Weekly01-Projects-HTML-CSS-Bootstrap/Week-6-Contact-Hub/index.html)
+
 ### 🚀 Key Features
 *   **Full CRUD Operations:** Add, View, Update, and Delete contacts.
 *   **Persistent Storage:** Uses `localStorage` to keep data saved even after page refresh.
