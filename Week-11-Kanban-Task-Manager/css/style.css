@@ -1,0 +1,247 @@
+
+.navbar{
+  position: fixed;
+  padding-inline: 130px;
+  height: 65px;
+  z-index: 1000;
+  width: 100%;
+background: linear-gradient(90deg, rgb(90, 3, 251) 0%, rgb(151, 87, 241) 100%);
+
+a{
+color: white;
+pointer-events: none;
+}
+}
+.btn{
+top: 10px; 
+right: 150px; 
+}
+
+
+.task-input::placeholder {
+  color:#B7C3D2; 
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 11px .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+ .form-control1{
+      display: block;
+  width: 100%;
+    /* padding: .375rem .75rem; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+ }
+ 
+
+
+.btn-warning{
+  background: #4F39F6;
+    padding:9px 80px ;
+          margin-top: 10px;
+          font-weight: 600;
+                border: none;
+
+
+
+
+}
+.btn-dark{
+      padding:9px 80px;
+      background: #F1F5F9;
+      margin-right: 5px;
+      color: black;
+      margin-top: 10px;
+      border: none;
+                font-weight: 600;
+
+
+
+}
+
+.btn-dark:hover {
+  background-color:  rgba(0, 0, 0,0.1) ;
+  color: black;
+}
+
+.btn-warning:hover {
+  background-color:   rgb(90, 3, 251) ;
+  color:white
+}
+body{
+  background-color: #FFFFFF;
+}
+.The-columans{
+  background-color: #FAFBFD;
+  height: 500px;
+  height: auto;
+}
+
+
+.All-Data{
+  background-color: #FFFFFF;
+  padding: 10px 10px;
+  border-radius: 18px;
+  .spot,.Box-indexing
+{
+    color: #CAD5E2;
+  }
+}
+.spot{
+  font-size: 8px;
+}
+.toDo-icon .clipboard{
+  color: #657790;
+  background-color: #F1F5F9;
+  border: none;
+}
+
+.btn-secondary{
+  padding: 8px 9px;
+  font-size: 10px;
+    background-color: white;
+      color:#62748E;
+
+
+}
+.btn-primary{
+  padding: 8px 9px;
+  font-size: 10px;
+  background-color: white;
+  color:#62748E;
+}
+
+.Edit-Task-button:hover.btn-secondary{
+    background-color: #EFF6FF;
+    color: blue;
+}
+
+.Delet-button:hover.btn-primary{
+    background-color: #FEF2F2;
+    color: red;
+}
+
+.Task-Description{
+  color:#AAB4C2;
+  font-weight: 600;
+}
+.Task-Priority{
+  color: #EA9C4A;
+  background-color: #FFFBEB;
+  padding: 3px 20px;
+  width: 25%;
+  font-weight: 600;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-block: 10px;
+}
+.spot2{
+  font-size: 4px;
+}
+
+
+.Task-Date-and-time-adding{
+  .task-date{
+    color: #90A1B9;
+  }
+  .time-adding{
+    color: #90A1B9;
+  }
+  .fa-regular{
+    color: #90A1B9;
+  }
+}
+.btn-danger{
+  color: #CC7732;
+  background-color: #FEF3C6;
+  border: none;
+  font-weight: 600;
+  padding: 5px 15px;
+
+}
+.btn-danger:hover{
+  background-color: #e7c025;
+}
+.btn-success{
+  color:#66B99B;
+  background-color:#D0FAE5;
+  border: none;
+  font-weight: 600;
+
+}
+.btn-success:hover{
+  background-color:#62aa90;
+}
+.All-Data:hover:hover {
+  box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px);
+}
+  .All-Data
+{ transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;}
+
+.spinner-icon{
+  color:#FEA00F;
+  background-color:#FFFBEB;
+}
+.correct-icon{
+  background-color:#d5f7e7;
+  color: #0CBF83;
+}
+
+
+.folder {
+            font-size: 2.5rem;
+            color: #c4d1db;
+        }
+        .empty-state-title {
+            color:#C5CFDB; 
+            font-weight: 600;
+                 font-size: 14px;
+
+        }
+        .empty-state-text {
+            color:#C5CFDB;
+        }
+      .lead{
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+.main-footer {
+    background-color:#172236; 
+    color: #9ca3af;
+    text-align: center;
+    padding: 25px 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 23%;
+    height: 65px;
+}
+
+.main-footer .heart {
+    color: #ef4444;
+    margin: 0 4px;
+}
